@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>It’s over 9000</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" id="left">
+  
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select>
+  
+  <input type="text" id="right">
+  <input type="submit" value="Try me!" id="submit">
+
+  <script>
+    $(function () {
+
+      $('#submit').click(function () {
+        const left = $('#left').val();
+        const right = $('#right').val();
+        const op = $('#operator').val();
+
+        if (!isPositive(left) || !isPositive(right)) {
+          alert('Error :(');
+          return;
+        }
+
+        const a = Number(left);
+        const b = Number(right);
+
+        if ((op === '/' || op === '%') && b === 0) {
+          alert("It’s over 9000!");
+          console.log("It’s over 9000!");
+          return;
+        }
+
+        let result;
+        if (op === '+') result = a + b;
+        if (op === '-') result = a - b;
+        if (op === '*') result = a * b;
+        if (op === '/') result = a / b;
+        if (op === '%') result = a % b;
+
+        alert(result);
+        console.log(result);
+      });
+
+      function isPositive(value) {
+        if (value === '') return false;
+        const n = Number(value);
+        return Number.isInteger(n) && n >= 0;
+      }
+
+      setInterval(function () {
+        alert("Please, use me...");
+      }, 30000);
+    });
+  </script>
+</body>
+</html>
