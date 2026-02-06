@@ -23,8 +23,9 @@ body {
 }
   
 /* showcase section */  
-.bg-light {
+#showcase {
     background-color: #e65710 !important;
+    height: 100vh;
 }
 
 .card {
