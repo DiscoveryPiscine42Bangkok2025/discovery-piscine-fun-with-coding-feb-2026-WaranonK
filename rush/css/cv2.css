@@ -1,13 +1,71 @@
 body {
-    background-color: #f8fafc;
-    color: #020617;
+    background-color: #270a10;
+    color: #39a8c4;
 }
   
 .card {
-    border-radius: 20px;
+    background-color: #020617;
+    color: #27da86;
 }
   
 .navbar {
-    background-color: #ffffff !important;
+    background-color: #170203 !important;
+}
+/* about section */
+#about p {
+    line-height: 2.0;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;      
+    border-radius: 50%;     
+    border: 3px solid #332abe;
+    box-shadow: 0 0 20px rgba(35, 22, 153, 0.4);
 }
   
+/* showcase section */  
+.bg-light {
+    background-color: #fffd98 !important;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 8px;
+}
+  
+.custom-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #27da86;
+}
+/* contact section */
+#contact {
+    background-color: #238046;
+    color: #27da86;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;  
+    max-width: 240px;  
+    margin: 0 auto;
+}
+  
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.contact-icons img:hover {
+    transform: scale(1.1);
+}
+
+      

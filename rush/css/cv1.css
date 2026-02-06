@@ -1,14 +1,71 @@
 body {
     background-color: #0f172a;
-    color: #e5e7eb;
+    color: #6b5bff;
 }
   
 .card {
     background-color: #020617;
-    color: #e5e7eb;
+    color: #7626a5;
 }
   
 .navbar {
     background-color: #020617 !important;
 }
+/* about section */
+#about p {
+    line-height: 2.0;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;      
+    border-radius: 50%;     
+    border: 3px solid #7626a5;
+    box-shadow: 0 0 20px rgba(118, 38, 165, 0.4);
+}
   
+/* showcase section */  
+.bg-light {
+    background-color: #d9ff7f !important;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 8px;
+}
+  
+.custom-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #7626a5;
+}
+/* contact section */
+#contact {
+    background-color: #2d6f83;
+    color: #7626a5;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;  
+    max-width: 240px;  
+    margin: 0 auto;
+}
+  
+.contact-icons img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.contact-icons img:hover {
+    transform: scale(1.1);
+}
+
+      
