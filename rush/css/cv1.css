@@ -1,15 +1,14 @@
 body {
-    background-color: #0f172a;
-    color: #6b5bff;
-}
-  
-.card {
-    background-color: #020617;
-    color: #7626a5;
+    background: linear-gradient(90deg, #30184b, #471140, #30184b);
+    color: #8b7eff;
+    padding-top: 70px;
 }
   
 .navbar {
-    background-color: #020617 !important;
+    background: linear-gradient(0deg, #161133, #091103);
+}
+section {
+    scroll-margin-top: 90px;
 }
 /* about section */
 #about p {
@@ -26,8 +25,21 @@ body {
 }
   
 /* showcase section */  
-.bg-light {
-    background-color: #d9ff7f !important;
+#showcase {
+    background: linear-gradient(90deg, #60eb72, #26a86b, #26a86b, #60eb72);
+    color: #c9006e;
+}
+
+.card {
+    background-color: #020617;
+    color: #8f0594;
+}
+
+.card-title {
+    display: inline-block;   
+    padding-bottom: 6px;
+    border-bottom: 2px solid #a855f7;
+    font-weight: 600;
 }
 
 .custom-list li {
@@ -44,8 +56,9 @@ body {
 }
 /* contact section */
 #contact {
-    background-color: #2d6f83;
-    color: #7626a5;
+    background: linear-gradient(135deg, #d48217, #e71163, #d48217);
+    color: #141650;
+    padding-top: 50px;
 }
 
 .contact-icons {

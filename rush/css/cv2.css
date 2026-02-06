@@ -1,16 +1,13 @@
 body {
-    background-color: #270a10;
-    color: #39a8c4;
-}
-  
-.card {
-    background-color: #020617;
-    color: #27da86;
+    background-color: #BF092F;
+    color: #132440;
+    padding-top: 70px;
 }
   
 .navbar {
-    background-color: #170203 !important;
+    background-color: #16476A!important;
 }
+
 /* about section */
 #about p {
     line-height: 2.0;
@@ -27,7 +24,19 @@ body {
   
 /* showcase section */  
 .bg-light {
-    background-color: #fffd98 !important;
+    background-color: #e65710 !important;
+}
+
+.card {
+    background-color: #132440;
+    color: #BF092F;
+}
+
+.card-title {
+    display: inline-block;   
+    padding-bottom: 6px;
+    border-bottom: 2px solid #f5f5f5;
+    font-weight: 600;
 }
 
 .custom-list li {
@@ -44,8 +53,9 @@ body {
 }
 /* contact section */
 #contact {
-    background-color: #238046;
+    background-color: #132440;
     color: #27da86;
+    padding-top: 50px;
 }
 
 .contact-icons {
@@ -67,5 +77,3 @@ body {
 .contact-icons img:hover {
     transform: scale(1.1);
 }
-
-      
