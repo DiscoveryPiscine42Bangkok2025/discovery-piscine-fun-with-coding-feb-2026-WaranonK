@@ -1,0 +1,78 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto 50px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+  
+/* Invisible table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+td {
+    padding: 10px;
+}
+  
+/* Profile picture */
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+  
+/* Login */
+.login {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+/* Description */
+.description {
+    color: gray;
+}
+
+.school {
+    font-size: 14px;
+}
+  
+/* Social icons */
+.socials img {
+    width: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+/* Contact button */
+.contact {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.contact:hover {
+    background: #333;
+}
+
+.contact:hover {
+    background: #333;
+}
