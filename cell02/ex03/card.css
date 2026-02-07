@@ -73,6 +73,6 @@ td {
     background: #333;
 }
 
-.contact:hover {
-    background: #333;
+.contact:active {
+    background: #7016dd;
 }
